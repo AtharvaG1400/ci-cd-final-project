@@ -1,3 +1,29 @@
+# ci-cd-final-project
+
+## Project Name
+CI/CD Pipeline for a Python Application
+
+## Project Description
+This project demonstrates Continuous Integration and Continuous Delivery using GitHub Actions, Tekton, and OpenShift Pipelines.
+
+## Technologies Used
+- Python and Flask
+- GitHub Actions
+- flake8
+- nose
+- Docker and Buildah
+- Tekton
+- Red Hat OpenShift
+
+## Continuous Integration
+The GitHub Actions workflow installs Python dependencies, checks the source code with flake8, and runs automated unit tests with nose.
+
+## Continuous Delivery
+The OpenShift Pipeline cleans the workspace, clones the repository, runs linting and tests, builds a container image, and deploys the application.
+
+## Author
+AtharvaG1400
+
 # CI/CD Tools and Practices Final Project Template
 
 This repository contains the template to be used for the Final Project for the Coursera course **CI/CD Tools and Practices**.
